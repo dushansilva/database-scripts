@@ -1,0 +1,35 @@
+RESTORE DATABASE apimgtdb FROM DISK ='/backups/apimgtdb.bak'
+WITH NORECOVERY
+GO
+RESTORE DATABASE apimgtdb WITH RECOVERY
+GO
+
+RESTORE DATABASE shareddb FROM DISK ='/backups/shareddb.bak'
+WITH NORECOVERY
+GO
+RESTORE DATABASE shareddb WITH RECOVERY
+GO
+
+RESTORE DATABASE analyticsdb FROM DISK ='/backups/analyticsdb.bak'
+WITH NORECOVERY
+GO
+RESTORE DATABASE analyticsdb WITH RECOVERY
+GO
+
+RESTORE DATABASE dashboarddb FROM DISK ='/backups/dashboarddb.bak'
+WITH NORECOVERY
+GO
+RESTORE DATABASE dashboarddb WITH RECOVERY
+GO
+
+RESTORE DATABASE businessrulesdb FROM DISK ='/backups/businessrulesdb.bak'
+WITH NORECOVERY
+GO
+RESTORE DATABASE businessrulesdb WITH RECOVERY
+GO
+
+RESTORE DATABASE permissionsdb FROM DISK ='/backups/permissionsdb.bak'
+WITH NORECOVERY
+GO
+RESTORE DATABASE permissionsdb WITH RECOVERY
+GO
